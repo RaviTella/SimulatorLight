@@ -10,6 +10,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Security.Cryptography.X509Certificates;
 
 
 namespace PMAircraftIngress
@@ -92,7 +93,12 @@ namespace PMAircraftIngress
 
 		public void Run()
 		{
-			if (this.Context.IngressState == IngressStateFlag.Idle)
+            //String certPath = "C:/Users/ratella/Source/Repos/SimulatorLight/Data/azure-iot-test-only.root.ca.cert.pem.csv";
+           // X509Store store = new X509Store(StoreName.Root, StoreLocation.CurrentUser);
+            //store.Open(OpenFlags.ReadWrite);
+           // store.Add(new X509Certificate2(X509Certificate2.CreateFromCertFile(certPath)));
+           // store.Close();
+            if (this.Context.IngressState == IngressStateFlag.Idle)
 			{
 				this.CancellationTokenSource = new System.Threading.CancellationTokenSource();
 				ThreadPool.QueueUserWorkItem(new WaitCallback(this.Upload), this.CancellationTokenSource.Token);
@@ -160,8 +166,10 @@ namespace PMAircraftIngress
                                             Dictionary<string, string> telemetryDictionary = getTelemetryAsDictionary(payload);
                                             string telemetryJson = Newtonsoft.Json.JsonConvert.SerializeObject(telemetryDictionary);
                                             SendDeviceToCloudMessagesAsync(telemetryJson);
-                                         //   client.Send(new EventData(Encoding.UTF8.GetBytes(telemetryJson)));
-										}
+                                            Thread.Sleep(1000);
+                                            Task.Delay(1000).Wait();
+                                            //   client.Send(new EventData(Encoding.UTF8.GetBytes(telemetryJson)));
+                                        }
                                         currentCounter = data[counterIdx];
 										currentCounterData.Clear();
 										currentCounterData.Add(eventData);
@@ -219,7 +227,7 @@ namespace PMAircraftIngress
                 await Client.SendEventAsync(message);
                 Console.WriteLine("{0} > Sending message: {1}", DateTime.Now, jsonMessage);
                Console.WriteLine("Waiting for a SendFrequency of", this.Context.SendFrequency);
-               Task.Delay(this.Context.SendFrequency).Wait();
+        
 
         }
 

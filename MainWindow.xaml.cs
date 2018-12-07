@@ -10,6 +10,7 @@ using System.Windows.Markup;
 using System.Windows.Media;
 using System.Windows.Threading;
 
+
 namespace PMAircraftIngress
 {
 	public partial class MainWindow : Window
@@ -25,10 +26,10 @@ namespace PMAircraftIngress
 			get;
 			set;
 		}
-
+        //TODO need to chnage this to add config into 
 		public MainWindow()
 		{
-			this.InitializeComponent();
+            this.InitializeComponent();
 			this.AcceleratorContext = IngressContext.GetContext();
 			this.AcceleratorContext.ReportStatus("Application Starting");
 			this.AcceleratorContext.OnUpdateStatus += new OnUpdateStatusHandler(this.StatusUpdate);

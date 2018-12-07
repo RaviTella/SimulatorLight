@@ -208,10 +208,9 @@
     <None Include="Data\aircraftdemo_input_v4.csv">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Data\EXAMNUMERICS.csv">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
+    <None Include="Data\Engine_Master.csv" />
     <None Include="packages.config" />
+    <None Include="PMAircraftIngress\azure-iot-test-only.root.ca.cert.pem" />
     <None Include="Setting.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
