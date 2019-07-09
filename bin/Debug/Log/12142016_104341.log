@@ -1,0 +1,9 @@
+10:43:41:964	Application Starting
+10:43:43:146	Upload Task starting
+10:43:43:149	Data File: C:\Users\tylerc\Documents\Visual Studio 2013\Projects\TCD\bin\Debug\Data/EXAMNUMERICS.csv
+10:45:02:897	Exception working with Event Hub : Index was outside the bounds of the array.
+10:45:02:901	Upload Task completed
+10:45:44:714	Upload Task starting
+10:45:44:719	Data File: C:\Users\tylerc\Documents\Visual Studio 2013\Projects\TCD\bin\Debug\Data/EXAMNUMERICS.csv
+10:46:19:586	Exception working with Event Hub : Index was outside the bounds of the array.
+10:46:19:591	Upload Task completed

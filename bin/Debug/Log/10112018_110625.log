@@ -1,0 +1,9 @@
+11:06:25:947	Application Starting
+11:06:57:062	Upload Task starting
+11:06:57:095	Data File: C:\Users\ratella\Source\Repos\SimulatorLight\bin\Debug\Data/Noble_ASA_Simulated.csv
+11:06:57:230	Can not open ./Data/Noble_ASA_Simulated.csv
+11:06:57:244		The process cannot access the file 'C:\Users\ratella\Source\Repos\SimulatorLight\bin\Debug\Data\Noble_ASA_Simulated.csv' because it is being used by another process.
+11:06:57:259	Cannot access the content to stream to the EventHub
+11:06:57:455	Exception working with Event Hub : Value cannot be null.
+Parameter name: stream
+11:06:57:470	Upload Task completed

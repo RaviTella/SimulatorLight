@@ -1,0 +1,6 @@
+14:02:08:988	Application Starting
+14:02:13:809	Upload Task starting
+14:02:13:826	Data File: C:\Users\ratella\Source\Repos\SimulatorLight\bin\Debug\Data/aircraftdemo_input_v4.csv
+14:02:15:298	Upload Task event uploaded for counter1
+14:02:19:703	Exception working with Event Hub : Put token failed. status-code: 404, status-description: The messaging entity 'sb://rtceventhubs.servicebus.windows.net/rtceventhubs' could not be found. TrackingId:c3585606-f10e-4430-8345-4e1e5b1cc36b_G28, SystemTracker:rtceventhubs.servicebus.windows.net:rtceventhubs, Timestamp:8/31/2018 7:02:19 PM.
+14:02:19:713	Upload Task completed

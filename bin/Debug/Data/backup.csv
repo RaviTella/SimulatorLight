@@ -1,0 +1,7 @@
+device_id,event_type,temperature,humidity,battery,light_meter,pressure
+device1,door,10,80,43.5,12.67,12.67
+device1,door,20,90,75,43.5,12.67
+device1,door,30,60,75,43.5,12.67
+device1,door,15,40,75,43.5,12.67
+device1,door,40,50,75,43.5,12.67
+device1,door,32,85,75,43.5,12.67

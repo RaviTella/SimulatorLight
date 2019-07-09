@@ -1,0 +1,18 @@
+﻿{
+  "ApplicationLogPath": "./Log",
+  "StorageConnectionString": "DefaultEndpointsProtocol=https;AccountName=pmaircraftstoragetlc;AccountKey=someKey",
+  "AdfContainer": "tcd",
+  "AdfBlobAgeMinutes": 60,
+
+  "EventFile": "./Data/skype1.csv",
+  "EventHubConnectionString": "Endpoint=sb://skypeanalyticshub.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=PU47ffq+ByiLqhz742U3HzPnlSjyKse8qC4NZDJBPUg=",
+  "EventHubName": "skypehub",
+
+  "IoTHubDeviceConnectionString": "",
+  "SendFrequency": 1000,
+  "SQLServer": "someServer",
+  "SQLDatabase": "someDB",
+  "SQLUserName": "sqlUser",
+  "SQLPassword": "sqlPassword",
+  "SQLTables": [ "pmaircraftstreamtarget", "pmaircraftmlresulttarget" ]
+}

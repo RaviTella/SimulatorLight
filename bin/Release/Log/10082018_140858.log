@@ -1,0 +1,9 @@
+14:08:58:161	Application Starting
+14:09:06:018	Upload Task starting
+14:09:06:027	Data File: C:\Users\ratella\Source\Repos\SimulatorLight\bin\Release\Data/Noble_ASA_Simulated.csv
+14:09:06:093	Can not open ./Data/Noble_ASA_Simulated.csv
+14:09:06:104		Could not find file 'C:\Users\ratella\Source\Repos\SimulatorLight\bin\Release\Data\Noble_ASA_Simulated.csv'.
+14:09:06:115	Cannot access the content to stream to the EventHub
+14:09:06:425	Exception working with Event Hub : Value cannot be null.
+Parameter name: stream
+14:09:06:448	Upload Task completed

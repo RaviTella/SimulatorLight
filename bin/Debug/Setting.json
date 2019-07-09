@@ -1,0 +1,18 @@
+﻿{
+  "ApplicationLogPath": "./Log",
+  "StorageConnectionString": "DefaultEndpointsProtocol=https;AccountName=pmaircraftstoragetlc;AccountKey=someKey",
+  "AdfContainer": "tcd",
+  "AdfBlobAgeMinutes": 60,
+  //"EventFile": "./Data/aircraftdemo_input_v4.csv",
+  "EventFile": "./Data/datadays.csv",
+  "EventHubConnectionString": "Conn String",
+  "EventHubName": "name",
+
+  "IoTHubDeviceConnectionString": "HostName=rt-southasia-iothub.azure-devices.net;DeviceId=device_sea;SharedAccessKey=UDj3QPuvKwN+h4F1l80Y1FsbRC8FctG+g5fJrCUdSyI=",
+  "SendFrequency": 1000,
+  "SQLServer": "someServer",
+  "SQLDatabase": "someDB",
+  "SQLUserName": "sqlUser",
+  "SQLPassword": "sqlPassword",
+  "SQLTables": [ "pmaircraftstreamtarget", "pmaircraftmlresulttarget" ]
+}

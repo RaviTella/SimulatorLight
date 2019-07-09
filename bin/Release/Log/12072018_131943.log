@@ -1,0 +1,11 @@
+13:19:43:386	Application Starting
+13:19:50:124	Upload Task starting
+13:19:50:148	Data File: C:\Users\ratella\Source\Repos\SimulatorLight\bin\Release\Data/aircraftdemo_input_v4.csv
+13:19:50:777	Exception working with Event Hub : Value cannot be null.
+Parameter name: iotHubConnectionString
+13:19:50:816	Upload Task completed
+13:20:02:885	Upload Task starting
+13:20:02:985	Data File: C:\Users\ratella\Source\Repos\SimulatorLight\bin\Release\Data/aircraftdemo_input_v4.csv
+13:20:03:146	Exception working with Event Hub : Value cannot be null.
+Parameter name: iotHubConnectionString
+13:20:03:209	Upload Task completed

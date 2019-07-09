@@ -1,0 +1,13 @@
+21:25:45:469	Application Starting
+21:25:47:515	Upload Task starting
+21:25:47:523	Data File: C:\Users\ratella\Source\Repos\SimulatorLight\bin\Release\Data/datadays.csv
+21:25:47:572	Can not open ./Data/datadays.csv
+21:25:47:577		The process cannot access the file 'C:\Users\ratella\Source\Repos\SimulatorLight\bin\Release\Data\datadays.csv' because it is being used by another process.
+21:25:47:582	Cannot access the content to stream to the EventHub
+21:25:47:676	Exception working with Event Hub : Value cannot be null.
+Parameter name: stream
+21:25:47:680	Upload Task completed
+21:26:01:622	Upload Task starting
+21:26:01:629	Data File: C:\Users\ratella\Source\Repos\SimulatorLight\bin\Release\Data/datadays.csv
+21:26:12:652	Upload Task cancellation request
+21:26:12:670	Upload Task completed

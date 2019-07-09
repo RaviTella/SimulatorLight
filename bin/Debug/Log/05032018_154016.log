@@ -1,0 +1,6 @@
+15:40:16:546	Application Starting
+15:41:05:930	Upload Task starting
+15:41:05:936	Data File: C:\Users\tylerc\Documents\Visual Studio 2013\Projects\PM_SimulatorLight\bin\Debug\Data/aircraftdemo_input_v4.csv
+15:41:09:292	Upload Task event uploaded for counter1
+15:41:20:145	Exception working with Event Hub : Put token failed. status-code: 404, status-description: The messaging entity 'sb://ev-azurehol.servicebus.windows.net/surgery' could not be found. TrackingId:7416d00f-09d5-4727-b11f-c79635762b19_G3, SystemTracker:ev-azurehol.servicebus.windows.net:surgery, Timestamp:5/3/2018 8:41:20 PM.
+15:41:20:154	Upload Task completed

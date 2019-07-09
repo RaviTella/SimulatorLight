@@ -1,0 +1,17 @@
+12:50:53:635	Application Starting
+12:50:57:230	Upload Task starting
+12:50:57:244	Data File: C:\Users\ratella\Source\Repos\SimulatorLight\bin\Release\Data/backup.csv
+12:52:17:980	Upload Task cancellation request
+12:52:17:995	Upload Task completed
+12:52:43:924	Upload Task starting
+12:52:43:937	Data File: C:\Users\ratella\Source\Repos\SimulatorLight\bin\Release\Data/backup.csv
+12:52:44:137	Can not open ./Data/backup.csv
+12:52:44:150		Could not find file 'C:\Users\ratella\Source\Repos\SimulatorLight\bin\Release\Data\backup.csv'.
+12:52:44:163	Cannot access the content to stream to the EventHub
+12:52:44:209	Exception working with Event Hub : Value cannot be null.
+Parameter name: stream
+12:52:44:219	Upload Task completed
+12:53:04:902	Upload Task starting
+12:53:04:937	Data File: C:\Users\ratella\Source\Repos\SimulatorLight\bin\Release\Data/backup.csv
+12:53:38:051	Upload Task cancellation request
+12:53:38:059	Upload Task completed

@@ -1,0 +1,9 @@
+21:15:43:408	Application Starting
+21:15:47:763	Upload Task starting
+21:15:47:770	Data File: C:\Users\ratella\Source\Repos\SimulatorLight\bin\Release\Data/aircraftdemo_input_v4.csv
+21:15:47:779	Can not open ./Data/aircraftdemo_input_v4.csv
+21:15:47:787		Could not find file 'C:\Users\ratella\Source\Repos\SimulatorLight\bin\Release\Data\aircraftdemo_input_v4.csv'.
+21:15:47:796	Cannot access the content to stream to the EventHub
+21:15:48:015	Exception working with Event Hub : Value cannot be null.
+Parameter name: stream
+21:15:48:021	Upload Task completed

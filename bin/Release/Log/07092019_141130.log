@@ -1,0 +1,9 @@
+14:11:30:396	Application Starting
+14:11:33:028	Upload Task starting
+14:11:33:038	Data File: C:\RaviTella\Source\Repos\SimulatorLight\bin\Release\Data/skype1.csv
+14:11:33:181	Can not open ./Data/skype1.csv
+14:11:33:191		Could not find file 'C:\RaviTella\Source\Repos\SimulatorLight\bin\Release\Data\skype1.csv'.
+14:11:33:203	Cannot access the content to stream to the EventHub
+14:11:33:458	Exception working with Event Hub : Value cannot be null.
+Parameter name: stream
+14:11:33:471	Upload Task completed

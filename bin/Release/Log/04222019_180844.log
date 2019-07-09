@@ -1,0 +1,6 @@
+18:08:44:146	Application Starting
+18:08:46:383	Upload Task starting
+18:08:46:389	Data File: C:\Users\ratella\Source\Repos\SimulatorLight\bin\Release\Data/backup.csv
+18:08:46:478	Exception working with Event Hub : The connection string is missing the property: HostName
+Parameter name: iotHubConnectionString
+18:08:46:482	Upload Task completed

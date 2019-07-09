@@ -1,0 +1,53 @@
+13:11:05:386	Application Starting
+13:11:07:824	Upload Task starting
+13:11:07:838	Data File: C:\Users\ratella\Source\Repos\SimulatorLight\bin\Debug\Data/aircraftdemo_input_v4.csv
+13:11:09:050	Upload Task event uploaded for counter1
+13:11:13:614	Upload Task event uploaded for counter2
+13:11:14:740	Upload Task event uploaded for counter1
+13:11:15:867	Upload Task event uploaded for counter2
+13:11:16:999	Upload Task event uploaded for counter34
+13:11:18:117	Upload Task cancellation request
+13:11:18:124	Upload Task completed
+13:20:13:649	Upload Task starting
+13:20:13:660	Data File: C:\Users\ratella\Source\Repos\SimulatorLight\bin\Debug\Data/aircraftdemo_input_v4.csv
+13:20:14:674	Upload Task event uploaded for counter1
+13:20:16:850	Upload Task event uploaded for counter2
+13:20:17:970	Upload Task event uploaded for counter1
+13:20:19:111	Upload Task event uploaded for counter2
+13:20:20:248	Upload Task event uploaded for counter34
+13:20:21:395	Upload Task event uploaded for counter1
+13:20:22:527	Upload Task event uploaded for counter2
+13:20:23:662	Upload Task event uploaded for counter34
+13:20:24:791	Upload Task cancellation request
+13:20:24:799	Upload Task completed
+13:26:28:298	Upload Task starting
+13:26:28:311	Data File: C:\Users\ratella\Source\Repos\SimulatorLight\bin\Debug\Data/aircraftdemo_input_v4.csv
+13:26:29:328	Upload Task event uploaded for counter1
+13:26:31:458	Upload Task event uploaded for counter2
+13:26:32:599	Upload Task event uploaded for counter1
+13:26:33:737	Upload Task event uploaded for counter2
+13:26:34:855	Upload Task event uploaded for counter34
+13:26:35:983	Upload Task event uploaded for counter1
+13:26:37:115	Upload Task event uploaded for counter2
+13:26:38:236	Upload Task event uploaded for counter34
+13:26:39:364	Upload Task event uploaded for counter95
+13:26:40:491	Upload Task event uploaded for counter1
+13:26:41:609	Upload Task event uploaded for counter2
+13:26:42:737	Upload Task event uploaded for counter4
+13:26:43:870	Upload Task event uploaded for counter34
+13:26:44:996	Upload Task event uploaded for counter51
+13:26:46:186	Upload Task event uploaded for counter55
+13:26:47:304	Upload Task event uploaded for counter95
+13:26:48:430	Upload Task event uploaded for counter1
+13:26:49:561	Upload Task event uploaded for counter2
+13:26:50:679	Upload Task event uploaded for counter4
+13:26:51:813	Upload Task event uploaded for counter34
+13:26:52:941	Upload Task event uploaded for counter45
+13:26:54:061	Upload Task event uploaded for counter51
+13:26:55:192	Upload Task event uploaded for counter55
+13:26:56:326	Upload Task event uploaded for counter93
+13:26:57:460	Upload Task event uploaded for counter94
+13:26:58:602	Upload Task event uploaded for counter95
+13:26:59:730	Upload Task event uploaded for counter1
+13:27:00:870	Upload Task cancellation request
+13:27:00:878	Upload Task completed

@@ -1,0 +1,9 @@
+10:25:32:877	Application Starting
+10:25:48:158	Upload Task starting
+10:25:48:167	Data File: C:\Users\tylerc\Documents\Visual Studio 2013\Projects\PM_SimulatorLight\bin\Debug\Data/aircraftdemo_input_v4.csv
+10:25:48:192	Can not open ./Data/aircraftdemo_input_v4.csv
+10:25:48:200		Could not find file 'C:\Users\tylerc\Documents\Visual Studio 2013\Projects\PM_SimulatorLight\bin\Debug\Data\aircraftdemo_input_v4.csv'.
+10:25:48:204	Cannot access the content to stream to the EventHub
+10:25:48:443	Exception working with Event Hub : Value cannot be null.
+Parameter name: stream
+10:25:48:449	Upload Task completed

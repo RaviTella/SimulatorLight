@@ -1,0 +1,24 @@
+14:32:10:258	Application Starting
+14:32:14:414	Upload Task starting
+14:32:14:430	Data File: C:\Users\ratella\Source\Repos\SimulatorLight\bin\Debug\Data/aircraftdemo_input_v4.csv
+14:32:15:525	Upload Task event uploaded for counterdevice2
+14:32:17:636	Upload Task event uploaded for counterdevice3
+14:32:19:650	Upload Task event uploaded for counterdevice2
+14:32:20:664	Upload Task cancellation request
+14:32:20:672	Upload Task completed
+14:35:21:589	Upload Task starting
+14:35:21:599	Data File: C:\Users\ratella\Source\Repos\SimulatorLight\bin\Debug\Data/aircraftdemo_input_v4.csv
+14:35:22:608	Upload Task event uploaded for counterdevice2
+14:35:23:700	Upload Task event uploaded for counterdevice3
+14:35:25:769	Upload Task event uploaded for counterdevice2
+14:35:26:797	Upload Task event uploaded for counterdevice3
+14:35:28:865	Upload Task event uploaded for counterdevice2
+14:35:29:881	Upload Task event uploaded for counterdevice3
+14:35:31:912	Upload Task event uploaded for counterdevice2
+14:35:32:924	Upload Task event uploaded for counterdevice3
+14:35:34:956	Upload Task event uploaded for counterdevice2
+14:35:35:971	Upload Task event uploaded for counterdevice3
+14:35:38:008	Upload Task event uploaded for counterdevice2
+14:35:39:571	Upload Task event uploaded for counterdevice3
+14:35:41:871	Upload Task cancellation request
+14:35:41:899	Upload Task completed

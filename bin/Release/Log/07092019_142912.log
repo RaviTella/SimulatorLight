@@ -1,0 +1,9 @@
+14:29:12:595	Application Starting
+14:29:14:637	Upload Task starting
+14:29:14:651	Data File: C:\RaviTella\Source\Repos\SimulatorLight\bin\Release\Data/skype.csv
+14:29:14:748	Can not open ./Data/skype.csv
+14:29:14:758		The process cannot access the file 'C:\RaviTella\Source\Repos\SimulatorLight\bin\Release\Data\skype.csv' because it is being used by another process.
+14:29:14:766	Cannot access the content to stream to the EventHub
+14:29:15:058	Exception working with Event Hub : Value cannot be null.
+Parameter name: stream
+14:29:15:070	Upload Task completed
