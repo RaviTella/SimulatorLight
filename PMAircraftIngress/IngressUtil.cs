@@ -18,11 +18,11 @@ namespace PMAircraftIngress
 
 	internal class IngressUtil
 	{
-        //static string DeviceConnectionString = "";
+        static DeviceClient iotHubClient = null;
+        static EventHubClient eventHubclient = null;
 
-        static DeviceClient Client = null;
 
-       
+
         private System.Threading.CancellationTokenSource CancellationTokenSource
 		{
 			get;
@@ -93,11 +93,7 @@ namespace PMAircraftIngress
 
 		public void Run()
 		{
-            //String certPath = "C:/Users/ratella/Source/Repos/SimulatorLight/Data/azure-iot-test-only.root.ca.cert.pem.csv";
-           // X509Store store = new X509Store(StoreName.Root, StoreLocation.CurrentUser);
-            //store.Open(OpenFlags.ReadWrite);
-           // store.Add(new X509Certificate2(X509Certificate2.CreateFromCertFile(certPath)));
-           // store.Close();
+       
             if (this.Context.IngressState == IngressStateFlag.Idle)
 			{
 				this.CancellationTokenSource = new System.Threading.CancellationTokenSource();
@@ -120,8 +116,8 @@ namespace PMAircraftIngress
 			{
 				try
 				{
-                    Client = DeviceClient.CreateFromConnectionString(this.Context.IoTHubDeviceConnectionString, Microsoft.Azure.Devices.Client.TransportType.Mqtt);
-                   // EventHubClient client = EventHubClient.CreateFromConnectionString(this.Context.EventHubConnectionString, this.Context.EventHubName);
+                    //iotHubClient = DeviceClient.CreateFromConnectionString(this.Context.IoTHubDeviceConnectionString, Microsoft.Azure.Devices.Client.TransportType.Mqtt);
+                    eventHubclient = EventHubClient.CreateFromConnectionString(this.Context.EventHubConnectionString, this.Context.EventHubName);
                 
 					using (StreamReader contentReader = new StreamReader(contentStream))
 					{
@@ -165,10 +161,10 @@ namespace PMAircraftIngress
 											string payload = string.Format("processed,{0}{1}{3},{2}", str);
                                             Dictionary<string, string> telemetryDictionary = getTelemetryAsDictionary(payload);
                                             string telemetryJson = Newtonsoft.Json.JsonConvert.SerializeObject(telemetryDictionary);
-                                            SendDeviceToCloudMessagesAsync(telemetryJson);
+                                            // SendDeviceToCloudMessagesAsync(telemetryJson);
+                                            SendEventHubMessagesAsync(telemetryJson);
                                             Thread.Sleep(1000);
-                                            Task.Delay(1000).Wait();
-                                            //   client.Send(new EventData(Encoding.UTF8.GetBytes(telemetryJson)));
+                                            Task.Delay(1000).Wait();                                            
                                         }
                                         currentCounter = data[counterIdx];
 										currentCounterData.Clear();
@@ -221,14 +217,19 @@ namespace PMAircraftIngress
 
 
 
-        private async void SendDeviceToCloudMessagesAsync(String jsonMessage)
-        {
-                var message = new Message(Encoding.ASCII.GetBytes(jsonMessage));
-                await Client.SendEventAsync(message);
-                Console.WriteLine("{0} > Sending message: {1}", DateTime.Now, jsonMessage);
-               Console.WriteLine("Waiting for a SendFrequency of", this.Context.SendFrequency);
-        
+        //private async void SendDeviceToCloudMessagesAsync(String jsonMessage)
+        //{
+        //        var message = new Message(Encoding.ASCII.GetBytes(jsonMessage));
+        //        await iotHubClient.SendEventAsync(message);
+        //        Console.WriteLine("{0} > Sending message: {1}", DateTime.Now, jsonMessage);
+        //       Console.WriteLine("Waiting for a SendFrequency of", this.Context.SendFrequency);
+        //}
 
+        private async void SendEventHubMessagesAsync(String jsonMessage)
+        {  // client.Send(new EventData(Encoding.UTF8.GetBytes(telemetryJson)));
+            var message = new Message(Encoding.ASCII.GetBytes(jsonMessage));
+            await eventHubclient.SendAsync(new EventData(Encoding.UTF8.GetBytes(jsonMessage)));
+            Console.WriteLine("{0} > Sending message: {1}", DateTime.Now, jsonMessage);           
         }
 
     }

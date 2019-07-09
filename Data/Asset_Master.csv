@@ -1,0 +1,3 @@
+device_id,Manufacturer,Model,PeriodsInService,State,City,Country
+device_sea,Contoso,m0097,120,Bangkok,Bangkok,Thailand
+device_usa,Contoso,m7689,10,Colorado,Denvor,usa
